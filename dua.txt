@@ -1,1 +1,64 @@
-Dua here
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$ git log
+commit 4cb6d02a937e61fbcfef953a1254d318b840ec48 (HEAD -> main, origin/main, origin/HEAD)
+Author: L1S22BSSE0043 <L1S22BSSE0043@ucp.com>
+Date:   Sat Apr 12 12:03:48 2025 +0500
+
+    dua here
+
+commit 00344d186466097b9be262ac3eff4cce51d422e7
+Author: L1S22BSSE0043 <L1S22BSSE0043@ucp.com>
+Date:   Sat Apr 12 11:42:53 2025 +0500
+
+    file done
+
+commit 833396b5e2236473062a5ef31e4684d19ff6330d
+Author: DUA69751 <dua69751@gmail.com>
+Date:   Sat Apr 12 11:30:07 2025 +0500
+
+    Initial commit
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$ git commit --amend
+hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$ git commit --amend
+[main 4dabdfb] dua here
+ Date: Sat Apr 12 12:03:48 2025 +0500
+ Committer: L1S22BSSE0043 <L1S22BSSE0043@ucp.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$ git add dua.txt
+warning: in the working copy of 'dua.txt', LF will be replaced by CRLF the next time Git touches it
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$ git reset --hard
+HEAD is now at 4dabdfb dua here
+
+l1s22bsse0043@UCP-LBA-203-24 MINGW64 ~/Desktop/devops (main)
+$
